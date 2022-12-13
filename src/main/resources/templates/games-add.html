@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Switch Library</title>
+</head>
+<body>
+  <p>Add a new game here!</p>
+  <form action="addHandler" method="post">
+    <label for="game-add-title">Game Title</label>
+    <input id="game-add-title" type="text" name="title" />
+
+    <label for="game-add-publisher">Game Publisher</label>
+    <input id="game-add-publisher" type="text" name="publisher" />
+
+    <label for="game-add-rating">Game Rating</label>
+    <input id="game-add-rating" type="text" name="rating" />
+
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
